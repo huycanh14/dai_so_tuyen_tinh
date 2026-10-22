@@ -1,21 +1,7 @@
-name: base
+name: py3.12
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.13
-  - conda=26.1.1
-  - setuptools
-  - pip
-  - wheel
-  - conda-anaconda-telemetry[version='>=0.3.0']
-  - conda-anaconda-tos[version='>=0.2.2']
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - python.app
-  - anaconda-anon-usage
-  - anaconda-auth
-  - jupyter
-  - matplotlib
-prefix: /opt/miniconda3
+  - python=3.12
+prefix: /opt/miniconda3/envs/py3.12
